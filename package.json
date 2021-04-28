@@ -1,0 +1,20 @@
+{
+  "name": "try-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-playwright-preset"
+  },
+  "author": "makotot",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "26.6.3",
+    "jest-playwright-preset": "1.5.2",
+    "playwright": "1.10.0",
+    "playwright-firefox": "1.10.0"
+  }
+}
